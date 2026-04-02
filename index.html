@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ian | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&family=GFS+Didot&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="home-page awaiting-entry">
+  <div class="enter-screen" id="enter-screen" role="dialog" aria-modal="true" aria-label="Enter site">
+    <button id="enter-site-btn" class="enter-site-btn" type="button">Enter Site</button>
+  </div>
+  <div class="bg-cycle" aria-hidden="true"></div>
+  <div class="tv-overlay" aria-hidden="true"></div>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-hands" aria-hidden="true">
+        <img class="loader-hand loader-hand-left" src="hand 1.png" alt="" />
+        <img class="loader-hand loader-hand-right" src="hand 2.png" alt="" />
+      </div>
+      <div class="loader-vertical loader-roman">
+        <span class="loader-text">Ι α ν</span>
+      </div>
+    </div>
+  </div>
+  <div class="bg-vertical bg-scrollmark" aria-hidden="true">
+    <span class="bg-mark">✠</span>
+    <span class="bg-text">Ι α ν</span>
+    <span class="bg-mark">✠</span>
+  </div>
+
+  <header class="topbar">
+    <div class="nav-left">IAN</div>
+    <nav class="top-nav">
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="info.html">Info</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-year">[2026]</div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <video class="hero-background-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+        <source src="snap.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="hero-stage">
+        <div class="hero-copy">
+          <p class="hero-kicker">Portfolio</p>
+          <h1>Ian</h1>
+          <p class="hero-lead">
+            The secret of happiness, you see, is not found in seeking more, but in developing the
+            capacity to enjoy less.
+          </p>
+        </div>
+        <div class="hero-intro">
+          <p>
+            Hello, my name is Christian. I enjoy reading, music, movies, cooking, fashion, and
+            writing literary pieces, which is honestly a very classy way of saying I have hobbies
+            for every mood swing. I also spend time around combatives and Jiu Jitsu, so I can
+            appreciate both a strong sentence and a strong choke.
+          </p>
+        </div>
+      </div>
+      <div class="hero-center-mark" aria-hidden="true">
+        <span class="hero-crest">✠</span>
+        <span class="hero-video-mark">Ι α ν</span>
+      </div>
+      <div class="mega-letters" aria-hidden="true">
+        <span>I</span>
+        <span>A</span>
+        <span>N</span>
+      </div>
+    </section>
+    <section class="detail" id="info">
+      <div class="detail-left">
+        <p>IAN, FEAR OF GOD</p>
+      </div>
+      <div class="detail-right">
+        <p>
+          Portrait styling, visual storytelling, elegant branding, and a personal presentation
+          built to feel like a curated room in a Florentine residence.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-head">
+        <div class="kicker">Get in touch</div>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h4>Social Channels</h4>
+          <ul>
+            <li><a href="https://www.instagram.com/channn.ian/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </li>
+            <li><a href="https://www.facebook.com/cchristian.ballen" target="_blank"
+                rel="noopener noreferrer">Facebook</a></li>
+          </ul>
+        </div>
+        <div class="contact-card">
+          <h4>Direct Info</h4>
+          <ul>
+            <li><a href="mailto:bmi.christianballen05@gmail.com">bmi.christianballen05@gmail.com</a></li>
+            <li><a href="tel:09196917575">09196917575</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="work">
+      <div class="section-head">
+        <div class="kicker">Collection</div>
+        <h2>Selected Works</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <button class="project-toggle" type="button" aria-expanded="false" aria-controls="kita-project-details">
+            <div class="project-image">
+              <img src="1.jpg" alt="KITA job ing platform preview screen" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-tag">✦ Java Project</span>
+                <span class="project-hint">Learn More↓</span>
+              </div>
+              <h3>KITA</h3>
+              <p>
+                A job-finding platform for students that recommends opportunities based on
+                skills and strand alignment.
+              </p>
+            </div>
+          </button>
+          <div class="project-dropdown" id="kita-project-details" hidden>
+            <div class="project-dropdown-copy">
+              <p class="project-dropdown-label">Project Overview</p>
+              <h4>Student-centered job matching</h4>
+              <p>
+                KITA helps students discover jobs that fit their abilities and academic strand,
+                making the search more relevant and easier to navigate.
+              </p>
+              <p>
+                The platform is designed to guide users toward opportunities that match what
+                they already know, what they are studying, and where they can grow next.
+              </p>
+            </div>
+            <div class="project-dropdown-gallery">
+              <figure class="project-shot">
+                <img src="2.jpg" alt="Second KITA interface screen" />
+                <figcaption>Recommendation and browsing view</figcaption>
+              </figure>
+              <figure class="project-shot">
+                <img src="3.jpg" alt="Third KITA interface screen" />
+                <figcaption>Additional project interface details</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <button class="project-toggle" type="button" aria-expanded="false" aria-controls="apple-project-details">
+            <div class="project-image">
+              <img src="apple1.jpg" alt="Apple website clone homepage preview" />
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-tag">✦ Web Clone</span>
+                <span class="project-hint">Learn More↓</span>
+              </div>
+              <h3>Apple Clone</h3>
+              <p>
+                A recreation of the Apple website focused on matching the original layout,
+                product presentation, and polished visual flow.
+              </p>
+            </div>
+          </button>
+          <div class="project-dropdown" id="apple-project-details" hidden>
+            <div class="project-dropdown-copy">
+              <p class="project-dropdown-label">Project Overview</p>
+              <h4>Rebuilding the Apple web experience</h4>
+              <p>
+                This project recreates the Apple website by mirroring its clean interface,
+                premium product sections, and recognizable landing page structure.
+              </p>
+              <p>
+                The goal was to study how a world-class brand presents products online and to
+                rebuild that same experience through front-end development.
+              </p>
+            </div>
+            <div class="project-dropdown-gallery">
+              <figure class="project-shot">
+                <img src="apple2.jpg" alt="Second Apple clone interface screen" />
+                <figcaption>Additional Apple clone page section</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <audio id="bg-audio" loop preload="auto" src="les.mp3"></audio>
+  <button id="mute-btn" class="mute-btn" type="button" aria-label="Toggle mute">[ SOUND ON ]</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    const bgAudio = document.getElementById('bg-audio');
+    const enterSiteBtn = document.getElementById('enter-site-btn');
+    const muteBtn = document.getElementById('mute-btn');
+    bgAudio.volume = 0.04;
+
+    const updateButtonState = () => {
+      const soundOn = !bgAudio.paused && !bgAudio.muted;
+      muteBtn.innerText = soundOn ? '[ SOUND ON ]' : '[ SOUND OFF ]';
+      muteBtn.setAttribute(
+        'aria-label',
+        soundOn ? 'Mute background music' : 'Play background music'
+      );
+    };
+
+    const startAudio = async () => {
+      try {
+        bgAudio.muted = false;
+        await bgAudio.play();
+      } catch (error) {}
+
+      updateButtonState();
+    };
+
+    const beginSite = () => {
+      if (enterSiteBtn) enterSiteBtn.disabled = true;
+      startAudio();
+      if (typeof window.beginHomeExperience === 'function') {
+        window.beginHomeExperience();
+      }
+    };
+
+    if (enterSiteBtn) {
+      enterSiteBtn.addEventListener('click', beginSite, { once: true });
+    }
+
+    muteBtn.addEventListener('click', async (event) => {
+      event.stopPropagation();
+
+      if (bgAudio.paused) {
+        await startAudio();
+        return;
+      }
+
+      bgAudio.muted = !bgAudio.muted;
+      updateButtonState();
+    });
+
+    bgAudio.addEventListener('play', updateButtonState);
+    bgAudio.addEventListener('pause', updateButtonState);
+    bgAudio.addEventListener('volumechange', updateButtonState);
+    updateButtonState();
+  </script>
+</body>
+
+</html>
